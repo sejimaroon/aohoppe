@@ -1,0 +1,14 @@
+# すべてのテキストファイルにLFを使用
+* text=auto
+
+# Markdownファイル
+*.md text
+
+# JavaScriptファイル
+*.js text
+
+# CSSファイル
+*.css text
+
+# HTMLファイル
+*.html text
