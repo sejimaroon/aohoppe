@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>蒼ほっぺ ～触ってみる？～</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__logo">
+      蒼ほっぺ 
+    </h1>
+    <ul class="header__list">
+      <li>
+        <a href="#news">ニュース</a>
+      </li>
+      <li>
+        <a href="#about">蒼ほっぺとは</a>
+      </li>
+      <li>
+        <a href="#contact">お問い合わせ</a>
+      </li>
+    </ul>
+    <div class="header__nav"></div>
+  </header>
+  <h1 class="mv">
+    <div class="inner">
+      <div class="mv__container">
+        <h2 class="mv__lead">
+          
+        </h2>
+      </div>
+    </div>
+  </h1>
+  <main>
+    <section class="news" id="news">
+      <dl class="news__list">
+        <dt class="news__date"></dt>
+        <dd class="news__text"></dd>
+      </dl>
+      <dl class="news__list">
+        <dt class="news__date"></dt>
+        <dd class="news__text"></dd>
+      </dl>
+      <dl class="news__list">
+        <dt class="news__date"></dt>
+        <dd class="news__text"></dd>
+      </dl>
+      <a class="more-btn" href="/news.html">
+        お知らせ一覧を見る
+      </a>
+    </section>
+    <section class="about" id="about">
+      
+    </section>
+    <section class="contact" id="contact">
+      
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="/js/main.js"></script>
+  <!-- <script>
+    $(document).ready(function() {
+      const inputs = $('input');
+
+      inputs.on('input', function() {
+        // 全角入力を無効化（全角文字を削除）
+        $(this).val($(this).val().replace(/[^\x00-\x7F]/g, '')); 
+        
+        // maxlengthに達したら次のinputにフォーカスを移動
+        if ($(this).val().length >= $(this).attr('maxlength')) {
+          const nextInput = inputs.eq(inputs.index(this) + 1);
+          if (nextInput.length) {
+            nextInput.focus();
+          }
+        }
+      });
+    });
+  </script> -->
+</body>
+
+</html>
